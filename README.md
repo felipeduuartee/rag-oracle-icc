@@ -11,7 +11,7 @@ Este projeto implementa um sistema de RAG (Retrieval-Augmented Generation) utili
 ├── json_loader.py             # Carregador e parser para arquivos JSON estruturados
 ├── requirements.txt           # Dependências do projeto
 ├── .gitignore                 # Arquivos/diretórios ignorados pelo Git
-├── rag_ds_json/               # Diretório contendo os arquivos .json com os dados
+├── data_json/               # Diretório contendo os arquivos .json com os dados
 └── chroma/                    # Diretório gerado automaticamente com a base vetorizada
 ```
 

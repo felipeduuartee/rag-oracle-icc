@@ -8,7 +8,7 @@ from get_embedding_function import get_embedding_function
 from json_loader import load_json_documents
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "rag_ds_json"
+DATA_PATH = "data_json"
 
 def main():
     parser = argparse.ArgumentParser()
