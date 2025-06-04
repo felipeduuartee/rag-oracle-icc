@@ -1,0 +1,66 @@
+{
+  "id": "noticia_01",
+  "title": "Programador é indiciado por queda de avião que matou 113 pessoas",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": ["Vestível Controlador", "Erro de Software", "Acidente Aéreo", "Responsabilidade Ética", "Tecnologia e Sociedade", "Programação", "Usabilidade", "Pascal"],
+  "summary": "O programador Malcom Pila foi indiciado por homicídio culposo após falha em código do sistema vestível iWear, que causou a paralisação da piloto e queda de avião com 113 vítimas. O erro se deu pelo uso incorreto do comando REPEAT no lugar de WHILE, ativando indevidamente o sistema de relaxamento. Especialistas apontam negligência técnica e ética.",
+  "content": {
+    "context": {
+      "data": {
+        "empresa": "Vina Systems",
+        "produto": "iWear (vestível controlador)",
+        "vítimas": 113,
+        "voo": "DX486",
+        "rota": "Pato Branco - Curitiba",
+        "região_acidente": "Serra do Mar, Guaraqueçaba",
+        "delegada": "Josefa dal Gema"
+      },
+      "piloto": {
+        "nome": "Alberta Dumont",
+        "experiência": "13 anos de voo",
+        "estado": "paralisada por sistema de relaxamento"
+      },
+      "programador": {
+        "nome": "Malcom Pila",
+        "empresa": "Vina Systems",
+        "acusação": "homicídio culposo",
+        "erro_de_código": "uso de REPEAT ao invés de WHILE",
+        "impacto": "paralisação da piloto mesmo com stress normal"
+      }
+    },
+    "evidencias": {
+      "documentos": [
+        "história de usuário",
+        "fluxo de eventos",
+        "valores de ativação/desativação"
+      ],
+      "código_comparado": {
+        "implementado": "repeat AtivarRelaxamento(iStress); iStress := fMedirStress(); until iStress <= 99;",
+        "correto": "while iStress > 99 do begin fAtivarRelaxamento(iStress); iStress := fMedirStress(); end;"
+      },
+      "perícia": {
+        "especialista": "Prof. Marcos Castilho (UFPR)",
+        "críticas": [
+          "uso incorreto do comando de repetição",
+          "falta de validação da condição",
+          "má indentação",
+          "código de baixa qualidade"
+        ]
+      }
+    },
+    "desdobramentos": {
+      "copiloto": {
+        "status": "dispositivo possivelmente falhou",
+        "sintoma": "nível de estresse não variou nos 30 min finais"
+      },
+      "familia_pila": {
+        "comentario_mae": "Malcom está muito mal… é uma injustiça. A corda sempre arrebenta do lado mais fraco."
+      }
+    },
+    "conclusao": "A falha no código foi determinante para o acidente. Investigadores consideram negligência técnica como causa principal. A SBC Horizontes seguirá acompanhando o caso."
+  },
+  "data_publicacao": "indefinida",
+  "imagem_relacionada": "imagem_obtida_via_dalle2"
+}

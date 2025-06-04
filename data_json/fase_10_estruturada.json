@@ -1,0 +1,18 @@
+{
+  "fase": 10,
+  "titulo": "A Fase do Resgate",
+  "contexto_narrativo": "Com a ativação do Arcade do Tempo, a Ressurgência agora pode não apenas enviar mensagens ao passado, mas também acessar universos paralelos. A missão agora é resgatar o máximo possível de participantes da Liga que foram prejudicados por ataques do Reino, ajudando-os a completar as fases anteriores ou aprimorando seus próprios desempenhos passados. Essa fase foca na colaboração e no fortalecimento coletivo da Liga do Pensamento Computacional.",
+  "desafio_logico": "Ajudar outras pessoas a completarem fases anteriores da Liga ou retornar para fases próprias que ficaram pendentes, resolvendo ou melhorando entregas, desenvolvendo habilidades e aumentando o XP geral da Liga.",
+  "opcoes_de_participacao": {
+    "devendo_fases": "Voltar e resolver as fases que ficaram pendentes, complementando entregas antigas ou refazendo-as com base em aprendizados mais recentes. Todas as entregas devem ser feitas no tópico da Fase 10, especificando a qual fase cada entrega corresponde.",
+    "fases_em_dia": "Ajudar pelo menos uma outra pessoa da Liga a passar por uma ou mais fases, oferecendo apoio para o desenvolvimento das habilidades necessárias, sem realizar a entrega no lugar da pessoa."
+  },
+  "pergunta_principal": "Como você contribuiu para o resgate e fortalecimento da Liga: resolveu fases pendentes ou apoiou outras pessoas a fazer isso?",
+  "instrucoes_para_o_aluno": [
+    "Indicar quais ações você conduziu: entregas refeitas, fases vencidas, ou apoio prestado a outras pessoas.",
+    "Citar quem te apoiou ou quem você apoiou, e em quais fases isso ocorreu.",
+    "Postar um novo tópico explicando as ações realizadas.",
+    "Reivindicar até 15 XP pela fase, justificando a pontuação de acordo com sua contribuição para a Liga."
+  ],
+  "xp_maximo": 15
+}

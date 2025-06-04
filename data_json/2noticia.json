@@ -1,0 +1,54 @@
+{
+  "id": "noticia_02",
+  "title": "“Vestível Controlador” pode ter muitas outras falhas",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": ["Vestível Controlador", "Erro de Software", "Diversidade de Gênero", "Tecnologia e Sociedade", "Usabilidade", "Falhas Éticas", "Programação", "Inteligência Artificial"],
+  "summary": "Novos trechos do código do dispositivo iWear revelam problemas graves, como a não atualização da variável de estresse para pessoas que não se identificam como homem ou mulher. Especialistas apontam falhas técnicas, arbitrariedade em valores e negligência em design inclusivo e documentação.",
+  "content": {
+    "problemas_detectados": [
+      {
+        "descricao": "Variável iStress inicializada com valor arbitrário (999)",
+        "impacto": "Permanece com valor incorreto se gênero for 'outro' ou 'prefiro não informar'"
+      },
+      {
+        "descricao": "Código reconhece apenas dois gêneros (1 - Masculino, 2 - Feminino)",
+        "impacto": "Ignora terceira opção configurável e falha na atualização do estresse real"
+      },
+      {
+        "descricao": "Comentários de código inconsistentes com o que é implementado",
+        "impacto": "Aumenta a opacidade do funcionamento e dificulta auditorias"
+      }
+    ],
+    "codigo_revelado": {
+      "trecho": [
+        "Var",
+        "X : Integer;",
+        "iStress : Integer;",
+        "X := fGenero(); {identifica o gênero do usuário}",
+        "iStress := 999; {inicializa a variável}",
+        "Case X Of",
+        "    1 : iStress := fMedirStress()-7; {se Masculino, reduz 10}",
+        "    2 : iStress := fMedirStress()+11; {se Feminino, aumenta 10}",
+        "End;"
+      ]
+    },
+    "analise_tecnica": {
+      "especialista": "Profª Carmem Hara (UFPR)",
+      "pontos": [
+        "Código possui lógica inconsistente e valores arbitrários",
+        "Falta de atualização de iStress em casos de gênero não binário",
+        "Documentação insuficiente (uso de post-its para funcionalidade crítica)",
+        "Necessidade de auditoria geral do sistema"
+      ]
+    },
+    "contexto_adicional": {
+      "dados_de_entrada": "Bases rotuladas pela Vina Systems usadas para IA",
+      "origem_valores": "Desconhecida – pode ser calibração, erro ou IA como GPT",
+      "responsavel_codigo": "Malcom Pila",
+      "resposta_vina": "Não retornou até o fechamento da reportagem"
+    }
+  },
+  "data_publicacao": "indefinida"
+}

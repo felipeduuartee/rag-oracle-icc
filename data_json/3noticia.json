@@ -1,0 +1,53 @@
+{
+  "id": "noticia_03",
+  "title": "Vina Systems pode estar mergulhada em fraudes",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": ["Vina Systems", "Fraude", "iWear", "Investimento", "Tecnologia Médica", "Inteligência Artificial", "Startups", "Ética em Tecnologia"],
+  "summary": "Suspeitas de fraude e entrega incompleta envolvem o iWear, produto que alavancou a Vina Systems. Relatos de atraso no desenvolvimento, uso de IA para gerar código e possível propaganda enganosa alimentam dúvidas sobre a integridade do projeto e da empresa.",
+  "content": {
+    "evento_principal": "Falha do iWear causou paralisação da piloto Alberta Dumont, levando à queda do voo da Capivaras Airlines com 113 mortos.",
+    "investigacao": {
+      "acusado": "Malcom Pila",
+      "acusacao": "Homicídio culposo por erro na codificação do software",
+      "descartado": "Ataque hacker, segundo peritos do Centro de Ciências Forenses da UFPR"
+    },
+    "explicacao_tecnica": {
+      "especialista": "Prof. Eduardo Todt (UFPR)",
+      "descricao": "iWear utiliza sensores e atuadores para monitorar sinais vitais e atuar sobre o corpo humano",
+      "tecnologias_env": [
+        "temperatura",
+        "pressão arterial",
+        "nível de oxigênio",
+        "frequência respiratória",
+        "atividade elétrica de órgãos",
+        "localização GPS"
+      ]
+    },
+    "suspeitas_de_fraude": [
+      {
+        "descricao": "Vina pode ter prometido funcionalidades que ainda não estavam prontas",
+        "impacto": "Atração indevida de investimentos bilionários"
+      },
+      {
+        "descricao": "Possível uso de software terceirizado fora dos padrões de qualidade",
+        "impacto": "Comprometimento da confiabilidade técnica do iWear"
+      },
+      {
+        "descricao": "Possível uso de ferramentas de IA como ChatGPT para gerar código",
+        "impacto": "Código inconsistente com dispositivos embarcados"
+      }
+    ],
+    "depoimento_fonte": {
+      "area": "Equipe de IA da Vina Systems",
+      "citacao": "A Vina Systems conseguiu mais investimentos por causa de tecnologias que ainda não estavam prontas.",
+      "problema_mencionado": "Atrasos e necessidade de conhecimento especializado em saúde"
+    },
+    "repercussao_publica": {
+      "resposta_vina": "Publicou e depois apagou nota alegando ataque hacker",
+      "aceitacao_publica": "iWear foi amplamente adotado após a COVID-19, inclusive pelo SUS e planos de saúde"
+    }
+  },
+  "data_publicacao": "indefinida"
+}

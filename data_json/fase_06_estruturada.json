@@ -1,0 +1,24 @@
+{
+  "fase": 6,
+  "titulo": "O Quadro da Mensagem",
+  "contexto_narrativo": "A Ressurgência confia em você para encontrar uma mensagem ultra-confidencial escondida atrás de um dos quadros do DInf, que mede exatamente 43cm. Os quadros estão ordenados do maior para o menor, e o sistema de alarme é ativado ao remover qualquer quadro. Você precisa agir com precisão e remover apenas o quadro correto para não disparar o alarme antes da hora.",
+  "desafio_logico": "Criar um algoritmo (representado como fluxograma) que permita identificar qual quadro possui exatamente 43cm de altura, realizando o mínimo possível de medições e removendo apenas um único quadro para obter a mensagem sem ser detectado antes.",
+  "restricoes": [
+    "Não se sabe a quantidade total de quadros (pode ser 1 ou n).",
+    "Os quadros estão ordenados do maior para o menor.",
+    "É permitido usar régua ou trena para medir os quadros.",
+    "É permitido medir quantos quadros quiser, mas apenas um quadro pode ser removido da parede.",
+    "Após a remoção, o sistema dispara o alarme e aciona iluminação local.",
+    "Você tem apenas 30 segundos para agir após remover o quadro."
+  ],
+  "pergunta_principal": "Como encontrar o quadro de 43cm com o menor número de medições possíveis e remover apenas esse quadro para obter a mensagem?",
+  "instrucoes_para_o_aluno": [
+    "Resolver o desafio criando um algoritmo que busque o quadro correto com o mínimo de medições.",
+    "Representar o algoritmo com um fluxograma claro e compreensível.",
+    "Calcular o custo da solução com base no número de medições necessárias.",
+    "Postar a solução (incluindo explicação e fluxograma) no tópico do fórum Entregas das Fases.",
+    "Indicar quantos pontos de XP você reivindica (máximo de 7 XP) e justificar.",
+    "Responder à pergunta bônus: qual é a mensagem deixada para a Ressurgência?"
+  ],
+  "xp_maximo": 7
+}

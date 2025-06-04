@@ -1,0 +1,26 @@
+{
+  "fase": 11,
+  "titulo": "Design, Ética e a Falha do Vestível Controlador",
+  "contexto_narrativo": "A análise crítica do Caso do Vestível Controlador revela falhas éticas e técnicas profundas. A Fase 11 convida você a refletir sobre como a ausência de testes de usabilidade e práticas de design centrado na pessoa usuária resultaram em consequências trágicas. Esta é uma fase argumentativa, analítica e ética.",
+  "desafio_logico": "Construir uma análise crítica sobre as falhas do Vestível Controlador, com base em evidências, contexto, responsabilidades envolvidas e lições aprendidas. A ênfase está na negligência dos testes em uso real e no impacto ético dessa omissão no processo de desenvolvimento tecnológico.",
+  "componentes_analise": {
+    "afirmacao_principal": "No centro das falhas está a ausência de design centrado na pessoa usuária e a negligência nos testes em contexto real.",
+    "evidencias": [
+      "Testes ocorreram apenas em ambientes laboratoriais controlados.",
+      "Não houve validação com usuárias em uso cotidiano.",
+      "Erros foram reportados mas ignorados.",
+      "Condições reais como interferência e carga cognitiva não foram simuladas."
+    ],
+    "contexto": "A falha é sistêmica: envolve cultura organizacional, pressão política, estruturas opressoras e negligência coletiva. Especialmente profissionais em posições vulneráveis, como mulheres, foram silenciadas.",
+    "conclusao": "Computação socialmente consciente exige mais do que técnica: exige cuidado, escuta, participação e responsabilização. Testar com pessoas reais em condições reais não é opcional — é um imperativo ético."
+  },
+  "pergunta_principal": "Qual análise crítica você constrói sobre o papel dos testes reais e do design centrado na pessoa usuária no caso do Vestível Controlador?",
+  "instrucoes_para_o_aluno": [
+    "Construir um texto analítico com argumentação ética e técnica sobre as causas e consequências da falha no Vestível Controlador.",
+    "Usar evidências da história e dos materiais recuperados ao longo das fases.",
+    "Incluir análise sobre cultura organizacional, estruturas de poder e ética no desenvolvimento tecnológico.",
+    "Publicar a análise no seu tópico de Entregas das Fases.",
+    "Reivindicar sua pontuação (máximo de 10 XP), justificando com base na profundidade da reflexão e contribuição à Liga."
+  ],
+  "xp_maximo": 10
+}

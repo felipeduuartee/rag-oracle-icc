@@ -1,0 +1,22 @@
+{
+  "fase": 3,
+  "titulo": "O Desafio das Engrenagens",
+  "contexto_narrativo": "Dentro do lendário Departamento de Informática, você explora antigos laboratórios, equipamentos e relíquias da era digital. Ao encontrar um exemplar do livro 'Algoritmos - Teoria e Prática', de Cormen, você é guiado por uma mensagem até a sala do antigo datacenter, protegida por uma grade travada. Ao investigar, você descobre que o mecanismo da manivela está quebrado e precisa de engrenagens corretas para funcionar.",
+  "desafio_logico": "Você encontra a inscrição 'p. 100111010' na manivela, que te leva a instruções deixadas pela Ressurgência. Você precisa substituir as 3 engrenagens da manivela por outras que satisfaçam os seguintes critérios:",
+  "regras": [
+    "O produto da quantidade de dentes das 3 engrenagens deve ser 36.",
+    "A soma da quantidade de dentes deve ser maior que a quantidade de barras horizontais da grade.",
+    "A engrenagem com mais dentes deve ser amarela.",
+    "Engrenagens erradas inutilizarão a manivela permanentemente."
+  ],
+  "pergunta_principal": "Quantos dentes têm as 3 engrenagens que fazem a manivela funcionar?",
+  "instrucoes_para_o_aluno": [
+    "Resolver a fase individualmente e responder quantos dentes têm as 3 engrenagens certas.",
+    "Explicar como chegou à solução — você pode usar passos, infográficos ou fluxogramas.",
+    "Postar a solução e explicação no seu tópico do fórum Entregas das Fases.",
+    "Indicar quanto tempo levou para resolver o desafio.",
+    "Indicar quantos pontos de XP reivindica (máximo de 3 XP) e justificar.",
+    "Responder à pergunta bônus: em qual página do livro você procurou?"
+  ],
+  "xp_maximo": 3
+}

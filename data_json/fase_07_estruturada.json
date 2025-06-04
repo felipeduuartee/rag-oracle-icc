@@ -1,0 +1,22 @@
+{
+  "fase": 7,
+  "titulo": "Identificando a Pessoa Infiltrada",
+  "contexto_narrativo": "Após descobertas sobre o Caso do Vestível Controlador, a Ressurgência confirma que há uma pessoa infiltrada em suas operações. A missão é identificar essa pessoa durante um evento disfarçado, com base em um padrão: a pessoa infiltrada conhece todas as outras, mas não é conhecida por nenhuma delas. O único recurso é perguntar 'Você conhece essa outra pessoa?' para uma pessoa por vez.",
+  "desafio_logico": "Criar um algoritmo para, com o menor número possível de perguntas, identificar se há uma pessoa infiltrada no evento. Caso exista, nomeá-la; caso contrário, afirmar que não há infiltrado. Apenas perguntas binárias são permitidas.",
+  "restricoes": [
+    "O algoritmo deve funcionar para qualquer quantidade n > 1 de pessoas no evento.",
+    "Somente uma pergunta é permitida por vez: 'Você conhece essa outra pessoa?'",
+    "As respostas são sempre verdadeiras (Sim ou Não), garantidas pelo soro da verdade.",
+    "É necessário minimizar o número de perguntas feitas."
+  ],
+  "pergunta_principal": "Como identificar a existência de uma pessoa infiltrada — e quem é ela — com o menor número de perguntas?",
+  "instrucoes_para_o_aluno": [
+    "Elaborar um algoritmo para resolver o desafio com o mínimo de perguntas.",
+    "Representar o algoritmo em forma de fluxograma claro e executável por qualquer pessoa.",
+    "Indicar quantas perguntas são necessárias em função da quantidade de pessoas presentes.",
+    "Postar sua solução (explicação, fluxograma e resposta) no fórum Entregas das Fases.",
+    "Justificar quantos pontos de XP você reivindica (máximo de 8 XP).",
+    "Responder à pergunta bônus: qual é a quantidade mínima de perguntas necessárias para garantir a identificação correta?"
+  ],
+  "xp_maximo": 8
+}

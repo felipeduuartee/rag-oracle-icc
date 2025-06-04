@@ -1,0 +1,15 @@
+{
+  "fase": 1,
+  "titulo": "O Enigma das Entradas",
+  "contexto_narrativo": "Durante uma noite fria e instável em Curitiba, após os eventos do Caso do Vestível Controlador, você encontra uma mochila da Liga do Pensamento Computacional. Dentro dela, uma mensagem misteriosa o convoca para o primeiro desafio, localizado no antigo centro-politécnico. Ao chegar, você encontra duas pessoas na entrada, uma sempre mente e outra sempre fala a verdade.",
+  "desafio_logico": "Você precisa chegar ao prédio do antigo departamento de informática. Existem duas entradas, mas apenas uma é correta. Na entrada, há duas pessoas: uma sempre fala a verdade e a outra sempre mente. Você pode fazer apenas UMA pergunta a uma delas para descobrir a entrada correta. Se errar, você estará fora da liga. Qual pergunta você fará para garantir que acerte o caminho?",
+  "pergunta_principal": "Qual pergunta você fará para descobrir a entrada correta, sabendo que uma pessoa mente e outra fala a verdade, e você só pode perguntar a uma delas?",
+  "instrucoes_para_o_aluno": [
+    "Resolver o desafio individualmente e escrever a pergunta que fará.",
+    "Explicar como a pergunta garante a resposta correta.",
+    "Postar no seu tópico de Entregas das Fases com o título iniciado por 'Fase 1'.",
+    "Indicar quantos pontos de XP você reivindica (máximo de 2 XP) e justificar.",
+    "Lembrar que após postar, há 30 minutos para editar. Depois disso, edições devem ser feitas em um novo post respondendo ao anterior."
+  ],
+  "xp_maximo": 2
+}

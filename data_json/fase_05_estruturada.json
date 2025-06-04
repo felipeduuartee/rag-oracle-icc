@@ -1,0 +1,26 @@
+{
+  "fase": 5,
+  "titulo": "O Desafio da Ordenação dos Quadros",
+  "contexto_narrativo": "Após conquistar a confiança da Ressurgência, você recebe um novo pedido: entregar um fluxograma que oriente uma pessoa inexperiente a ordenar quadros de personalidades da computação, pendurados na parede do salão do Reino, do maior para o menor tamanho. O desafio envolve quadros frágeis, um ambiente escuro, e um custo de 1 moeda para cada vez que um quadro for pendurado. Apenas dois quadros podem estar fora da parede ao mesmo tempo.",
+  "desafio_logico": "Executar e analisar um algoritmo de ordenação (representado por um fluxograma encontrado no livro), que atenda às restrições do desafio, e decidir se irá usá-lo como está, melhorá-lo ou criar outro, garantindo que o custo de moedas seja o menor possível.",
+  "restricoes": [
+    "A solução deve funcionar para qualquer n > 0.",
+    "Máximo de 2 quadros fora da parede simultaneamente.",
+    "Quadros não podem ser sobrepostos.",
+    "Cada pendurar custa 1 moeda.",
+    "Não pode usar dispositivos ou ferramentas auxiliares.",
+    "O fluxograma deve ser compreensível para uma pessoa inexperiente."
+  ],
+  "pergunta_principal": "Qual fluxograma você entregará para a ordenação eficiente dos quadros e como ele se comporta em termos de ações e custo?",
+  "instrucoes_para_o_aluno": [
+    "Analisar o fluxograma encontrado e explicar o algoritmo representado.",
+    "Indicar a quantidade de ações necessárias: retiradas, comparações, e penduradas.",
+    "Calcular o custo total em moedas para ordenar n quadros.",
+    "Decidir e justificar qual versão do fluxograma será entregue: o original, melhorado ou novo.",
+    "Apresentar a versão escolhida (visualmente, se possível).",
+    "Compartilhar a solução no seu tópico de Entregas das Fases, contemplando os itens anteriores.",
+    "Indicar quantos pontos de XP você reivindica (máximo de 7 XP) e justificar.",
+    "Responder à pergunta bônus: é possível fazer melhor que o fluxograma atual?"
+  ],
+  "xp_maximo": 7
+}

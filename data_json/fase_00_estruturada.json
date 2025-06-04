@@ -1,0 +1,78 @@
+{
+  "fase": 0,
+  "titulo": "Introdução ao Cenário: O Caso do Vestível Controlador",
+  "contexto_narrativo": "Após os eventos do chamado 'Caso do Vestível Controlador', dispositivos vestíveis conectados à IoT e governados por IA criaram um sistema socioenativo global. A IA reagia a entradas perceptuais, cognitivas e motoras das pessoas, atuando por meio de dispositivos. Em 2022, falhas propagadas por esse sistema causaram catástrofes globais e o colapso da infraestrutura digital. Seguiram-se décadas de caos, pandemias e reorganização da sociedade em reinos neomedievais controlados pela infocracia. Você, um sobrevivente com habilidades analíticas e mecânicas, foi convocado para a Liga do Pensamento Computacional.",
+  "objetivos_gerais": "Ganhar experiência, superar desafios, investigar os mistérios do Caso do Vestível Controlador, e enfrentar a opressão dos reinos controlados pelas elites da informação.",
+  "estrutura_da_liga": {
+    "fases": {
+      "01-09": "Desafios individuais de habilidades computacionais.",
+      "10-12": "Trabalho em equipe com problemas reais.",
+      "13": "Enfrentar o Big Boss com toda a XP adquirida."
+    },
+    "sistema_de_niveis": [
+      {
+        "nivel": "Iron",
+        "fases": [
+          "01",
+          "02"
+        ]
+      },
+      {
+        "nivel": "Bronze",
+        "fases": [
+          "03",
+          "04"
+        ]
+      },
+      {
+        "nivel": "Silver",
+        "fases": [
+          "05"
+        ]
+      },
+      {
+        "nivel": "Gold",
+        "fases": [
+          "06"
+        ]
+      },
+      {
+        "nivel": "Platinum",
+        "fases": [
+          "07"
+        ]
+      },
+      {
+        "nivel": "Diamond",
+        "fases": [
+          "08"
+        ]
+      },
+      {
+        "nivel": "Master",
+        "fases": [
+          "09"
+        ]
+      },
+      {
+        "nivel": "GrandMaster",
+        "fases": [
+          "10",
+          "11"
+        ]
+      },
+      {
+        "nivel": "Challenger",
+        "fases": [
+          "12"
+        ]
+      }
+    ],
+    "nota": "A partir de Platinum você entra na elite da liga. Em Master, vira lenda."
+  },
+  "data_inicio": "27/03",
+  "instrucoes_adicionais": [
+    "Consulte a Agenda da Disciplina e Apresentação da Disciplina para dúvidas sobre prazos e métodos.",
+    "Boa sorte. As fases estão lhe esperando."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "noticia_04",
+  "title": "Equipe de desenvolvimento do “Vestível Controlador” trabalhava sob enorme pressão",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": [
+    "iWear",
+    "pressão no trabalho",
+    "Vina Systems",
+    "Eliza Ventura",
+    "Malcom Pila",
+    "gestão de projetos",
+    "ética",
+    "assédio moral",
+    "prototipação",
+    "desenvolvimento ágil"
+  ],
+  "summary": "Integrantes da equipe de desenvolvimento do iWear na Vina Systems trabalharam sob forte pressão. Conflitos entre gestão e a Scrum Master Eliza Ventura, decisões técnicas ignoradas e assédio moral compuseram um ambiente hostil, contribuindo para as falhas do sistema.",
+  "content": {
+    "conflitos": {
+      "personagens": [
+        "Eliza Ventura",
+        "Hélio Musk"
+      ],
+      "descrição": "Conflitos constantes entre o diretor de negócios e a Scrum Master, com ameaças, desautorização e pressão extrema."
+    },
+    "assédio": {
+      "caso": "Musk ameaçou substituir Eliza por um homem mais jovem",
+      "impacto": "Eliza cogitou deixar a empresa, perdeu autonomia e teve decisões ignoradas."
+    },
+    "questões_técnicas": {
+      "modelo_desejado": "Prototipação com iteração e testes progressivos",
+      "modelo_adotado": "Scrum adaptado com foco em MVP rápido e backlog ditado por negócios",
+      "preocupações_de_eliza": [
+        "falta de especificação de requisitos",
+        "falta de transparência na IA",
+        "ausência de especialistas em UX",
+        "tempo e equipe insuficientes para testes",
+        "baixa prioridade para segurança"
+      ]
+    },
+    "problemas_na_equipa": {
+      "contratacoes": 6,
+      "experiencia_relevante": false,
+      "comentario_fonte": "Adicionar mais programadores não resolveu o atraso"
+    },
+    "ambiente_hostil": {
+      "reunioes": {
+        "interrupcoes": 17,
+        "comentarios": "Eliza foi taxada de 'nervosa' por reclamar das interrupções"
+      },
+      "saude": "Eliza estava em tratamento contra câncer e trabalhava meio período",
+      "reunioes_sem_ela": true
+    }
+  },
+  "data_publicacao": "indefinida"
+}

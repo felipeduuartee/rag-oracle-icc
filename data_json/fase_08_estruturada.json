@@ -1,0 +1,22 @@
+{
+  "fase": 8,
+  "titulo": "A Mochila da Resistência",
+  "contexto_narrativo": "Diante da decisão do Reino de destruir o DInf e apagar os registros da Computação, a Ressurgência precisa agir rapidamente para salvar os itens mais valiosos. Cada membro da Liga possui uma mochila com capacidade limitada. Sua missão é criar um algoritmo que ajude essas pessoas a escolher os itens de maior valor possível sem exceder a capacidade da mochila.",
+  "desafio_logico": "Propor um algoritmo que maximize o valor dos itens carregados dentro da mochila, considerando seus volumes e valores. O problema é equivalente ao clássico problema da mochila (knapsack problem).",
+  "restricoes": [
+    "Cada mochila possui uma capacidade máxima (em cm³) que não pode ser ultrapassada.",
+    "Os itens possuem valores simbólicos (em adas) e volumes conhecidos.",
+    "Os itens devem ser escolhidos de forma a maximizar o valor carregado.",
+    "O algoritmo deve funcionar para qualquer conjunto de n itens com volumes e valores variados."
+  ],
+  "pergunta_principal": "Qual algoritmo deve ser usado para escolher os melhores itens e encher a mochila de forma a carregar o maior valor possível?",
+  "instrucoes_para_o_aluno": [
+    "Propor um algoritmo que resolva o problema da mochila maximizando o valor dos itens carregados.",
+    "Representar o algoritmo em forma de fluxograma claro e fácil de seguir.",
+    "Explicar como o algoritmo funciona e por que ele resolve o problema eficientemente.",
+    "Postar a solução e justificativa no seu tópico do fórum Entregas das Fases.",
+    "Indicar quantos pontos de XP reivindica (máximo de 8 XP) e justificar sua escolha.",
+    "Refletir se o algoritmo pode ser melhorado em clareza ou desempenho."
+  ],
+  "xp_maximo": 8
+}

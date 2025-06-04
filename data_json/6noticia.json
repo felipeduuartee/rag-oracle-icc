@@ -1,0 +1,37 @@
+{
+  "id": "noticia_06",
+  "titulo": "Projeto do “Vestível Controlador” negligenciou a experiência do usuário",
+  "autor": "Jade Scobri",
+  "local": "Curitiba, Brasil",
+  "resumo": "Mensagens internas e entrevistas com especialistas mostram que o projeto do iWear ignorou princípios fundamentais de UX, o que pode ter contribuído diretamente para a tragédia envolvendo o dispositivo vestível.",
+  "conteudo": "No último final de semana, a SBC Horizontes recebeu mais informações sobre outros problemas no projeto do iWear que podem ter influenciado na sua falha. [...] A Diretoria informou que todos os processos da Vina Systems seguem os mais altos padrões de qualidade internacionais e, que, embora seu processo e seu controle de qualidade sejam de altíssimo nível, não é possível garantir que um sistema será livre de falhas ou de erros operacionais humanos.",
+  "fonte": "SBC Horizontes",
+  "data": null,
+  "temas": [
+    "experiência do usuário",
+    "UX",
+    "negligência em design",
+    "acessibilidade",
+    "interação baseada em voz",
+    "projetos de sistemas vestíveis"
+  ],
+  "pessoas_mencionadas": [
+    "Eliza Ventura",
+    "Hélio Musk",
+    "Brenda Laurel",
+    "Natasha Valentim"
+  ],
+  "organizacoes_mencionadas": [
+    "Vina Systems",
+    "UFPR"
+  ],
+  "palavras_chave": [
+    "UX",
+    "usabilidade",
+    "design participativo",
+    "acessibilidade",
+    "interação humano-computador",
+    "vestível controlador",
+    "iWear"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "fase": 4,
+  "titulo": "O Desafio da Criptografia",
+  "contexto_narrativo": "Após entrar na sala do antigo datacenter, você encontra uma mensagem criptografada na parede. Ao explorar o ambiente, descobre uma pista deixada pela Ressurgência que remete à necessidade de descriptografar e evoluir o método de criptografia usado.",
+  "desafio_logico": "Descriptografar a mensagem 'bmfbw: dmabqdmt kwvbzwtilwz xwlm bmz wcbzia nitpia' utilizando pistas encontradas na sala. Em seguida, criar um novo esquema de criptografia mais sofisticado, com lógica diferenciada para vogais e consoantes, representando-o em um fluxograma. Também é necessário criptografar uma nova mensagem com esse esquema.",
+  "pista": "Frase encontrada: 'Quando estava em dois a chave cabia em sua mão. Mas é preciso ser dez para somar a solução.' Sugere que a chave usada inicialmente pode ser 2 (Cifra de César) e que a cifra ideal terá chave 10.",
+  "mensagem_criptografada": "bmfbw: dmabqdmt kwvbzwtilwz xwlm bmz wcbzia nitpia",
+  "pergunta_principal": "Qual é a mensagem original e como evoluir a criptografia para um novo esquema?",
+  "instrucoes_para_o_aluno": [
+    "Descriptografar a mensagem original da parede.",
+    "Criar um novo esquema de criptografia com lógica diferenciada para vogais e consoantes, representando-o com um fluxograma.",
+    "Criptografar uma nova mensagem utilizando seu esquema, incluindo a(s) chave(s).",
+    "Postar tudo no tópico de Entregas das Fases: a mensagem original, o fluxograma, a nova mensagem criptografada, e as chaves.",
+    "O fluxograma deve estar visível no post (não exigir download).",
+    "Indicar quantos pontos de XP você reivindica (máximo de 5 XP) e justificar."
+  ],
+  "xp_maximo": 5
+}

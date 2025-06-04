@@ -1,0 +1,23 @@
+{
+  "fase": 9,
+  "titulo": "O Fliperama do Tempo",
+  "contexto_narrativo": "A Ressurgência descobre que as moedas obtidas no desafio da ordenação ativam um fliperama embutido no antigo prédio da tecnologia, permitindo enviar mensagens 33 anos ao passado. Porém, uma das 12 moedas é falsa e não pode ser usada. Você precisa identificar a moeda falsa e determinar se ela é mais leve ou mais pesada, usando uma balança de dois pratos no máximo 3 vezes. A moeda falsa também será usada para sair da sala, inserida na fenda correta da porta.",
+  "desafio_logico": "Utilizar no máximo 3 pesagens com uma balança de dois pratos para identificar qual entre 12 moedas é falsa e determinar se ela é mais leve ou mais pesada que as verdadeiras.",
+  "restricoes": [
+    "A balança pode ser usada no máximo 3 vezes.",
+    "A moeda falsa possui peso diferente (mais leve ou mais pesada).",
+    "A moeda falsa é visualmente idêntica às demais.",
+    "A moeda falsa deve ser usada para destrancar a porta na fenda correta.",
+    "O uso da balança mais que 3 vezes ativa o mecanismo de queda.",
+    "É preciso garantir que as 11 moedas usadas no fliperama são verdadeiras."
+  ],
+  "pergunta_principal": "Como identificar a moeda falsa entre 12 e saber se ela é mais leve ou mais pesada, usando no máximo 3 pesagens?",
+  "instrucoes_para_o_aluno": [
+    "Resolver o desafio e explicar detalhadamente como é possível identificar a moeda falsa e seu peso relativo.",
+    "Criar um algoritmo que cubra todos os cenários possíveis e explicar seu funcionamento.",
+    "Entregar a solução em um post no fórum Entregas das Fases.",
+    "Reivindicar até 8 XP pela resolução, justificando o valor.",
+    "Responder aos desafios adicionais sobre o número mínimo de pesagens para diferentes valores de n moedas."
+  ],
+  "xp_maximo": 8
+}
