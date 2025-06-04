@@ -26,8 +26,8 @@ Este projeto implementa um sistema de RAG (Retrieval-Augmented Generation) utili
 1. Clone o repositório:
 
 ```bash
-git clone <url-do-repo>
-cd <nome-do-projeto>
+git clone https://github.com/felipeduuartee/rag-oracle-icc
+cd rag-oracle-icc
 ```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
@@ -74,7 +74,3 @@ Este projeto trabalha com dois tipos principais de arquivos `.json`:
 - Notícias com resumo, conteúdo técnico e implicações éticas
 
 O script `json_loader.py` cuida automaticamente de identificar e extrair os campos relevantes.
-
-## Licença
-
-Este projeto é distribuído sob os termos da licença MIT. Consulte o arquivo `LICENSE` para mais informações.
