@@ -1,0 +1,26 @@
+# Diretórios do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+env/
+venv/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Banco de dados vetorizado do Chroma
+chroma/
+
+# Arquivos de log ou temporários
+*.log
+*.tmp
+*.bak
+
+# Dados de entrada que não precisam ser versionados
+rag_ds_json/
