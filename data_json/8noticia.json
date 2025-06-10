@@ -1,23 +1,38 @@
 {
-    "id": 8,
-    "titulo": "Vina Systems admite problemas com testes do “Vestível Controlador”",
-    "autor": "Jade Scobri",
-    "local": "Curitiba, Brasil",
-    "conteudo": "A Vina Systems reconheceu publicamente falhas nos testes do sistema vestível iWear, que falhou durante o voo DX486, causando a morte de 113 pessoas. O diretor de negócios, Hélio Musk, afirmou que a ausência de uma equipe dedicada a testes de integração foi estratégica para evitar vazamentos de informações. Especialistas criticam fortemente a falta de uma estratégia robusta de Verificação e Validação. Musk responsabilizou a Scrum Master Eliza Ventura por autorizar o uso de IA nos testes, o que ela nega, alegando uso indevido de suas credenciais durante tratamento médico. Um informante anônimo revelou à SBC Horizontes que o iWear pode estar integrado a um sistema global ‘socioenativo’, levantando preocupações sobre suas implicações éticas e de segurança. A diretoria da Vina não respondeu aos questionamentos adicionais. Ao final da atualização, os canais de comunicação da empresa estavam fora do ar.",
-    "temas": [
-        "falhas em testes",
-        "verificação e validação",
-        "ética",
-        "segurança",
-        "acoplamento sociotécnico",
-        "inteligência artificial",
-        "acidentes sistêmicos"
-    ],
+  "id": "noticia_08",
+  "title": "Vina Systems admite problemas com testes do “Vestível Controlador”",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": [
+    "testes",
+    "verificação e validação",
+    "ética",
+    "segurança",
+    "sistemas sociotécnicos",
+    "acidentes sistêmicos"
+  ],
+  "summary": "A Vina Systems reconheceu falhas nos testes do iWear. A ausência de equipe de testes de integração foi estratégica...",
+  "content": {
+    "context": {
+      "citacoes": [
+        "Ausência de equipe de testes foi estratégica para evitar vazamentos",
+        "Eliza Ventura nega ter autorizado uso de IA"
+      ],
+      "revelacoes": [
+        "Dispositivo pode estar integrado a sistema global ‘socioenativo’"
+      ]
+    },
     "personagens": [
-        "Hélio Musk",
-        "Eliza Ventura",
-        "Leticia Mara Peres",
-        "Malcom Pila"
+      "Hélio Musk",
+      "Eliza Ventura",
+      "Leticia Mara Peres",
+      "Malcom Pila"
     ],
-    "conclusao": "As revelações indicam que os testes inadequados e possíveis decisões estratégicas da Vina Systems contribuíram criticamente para a falha do iWear. A hipótese de um sistema socioenativo global amplia ainda mais a gravidade do caso, que pode ter repercussões globais ainda desconhecidas."
+    "organizacoes": [
+      "Vina Systems"
+    ]
+  },
+  "conclusao": "Testes inadequados e decisões estratégicas contribuíram criticamente para a falha do iWear.",
+  "data_publicacao": "indefinida"
 }

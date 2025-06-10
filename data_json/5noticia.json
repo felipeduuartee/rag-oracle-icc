@@ -1,37 +1,47 @@
 {
   "id": "noticia_05",
-  "titulo": "“Vestível Controlador” pode ter sido projetado para falhar",
-  "autor": "Jade Scobri",
-  "local": "Curitiba, Brasil",
-  "resumo": "Documentos internos e fontes da Vina Systems sugerem que o vestível controlador pode ter sido projetado sob um processo falho, sem controle, com especificações vagas e ausência de especialistas da área da saúde. Essa negligência pode ter contribuído para a falha fatal do dispositivo iWear.",
-  "conteudo": "As novas informações recebidas em exclusividade pela SBC Horizontes levantam a possibilidade do vestível controlador ter sido deliberadamente projetado para falhar. [...] A nota dizia que o código sendo apontado como causa do problema não foi escrito pelo programador, e que a defesa está solicitando uma auditoria do controle de versões do código para identificar a origem das mudanças.",
-  "fonte": "SBC Horizontes",
-  "data": null,
-  "temas": [
-    "falhas no processo de desenvolvimento",
-    "scrum mal implementado",
-    "ausência de especialistas da saúde",
-    "documentação inadequada",
-    "possíveis interferências no projeto",
-    "responsabilização de programadores"
-  ],
-  "pessoas_mencionadas": [
-    "Malcom Pila",
-    "Eliza Ventura",
-    "Hélio Musk",
-    "Roberto Pereira",
-    "Silvia Vergilio"
-  ],
-  "organizacoes_mencionadas": [
-    "Vina Systems",
-    "UFPR"
-  ],
-  "palavras_chave": [
+  "title": "“Vestível Controlador” pode ter sido projetado para falhar",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
+  "tags": [
     "iWear",
     "scrum",
     "backlog",
     "requisitos",
     "auditoria",
     "vestível controlador"
-  ]
+  ],
+  "summary": "Documentos internos e fontes da Vina Systems sugerem que o vestível controlador pode ter sido projetado sob um processo falho...",
+  "content": {
+    "context": {
+      "problemas": [
+        "Processo falho e sem controle",
+        "Especificações vagas",
+        "Ausência de especialistas da área da saúde"
+      ],
+      "citacoes": [
+        "O código sendo apontado como causa do problema não foi escrito pelo programador",
+        "Defesa solicita auditoria do controle de versões do código"
+      ]
+    },
+    "evidencias": {
+      "documentos": [
+        "documentos internos",
+        "testemunhos de fontes da empresa"
+      ]
+    },
+    "personagens": [
+      "Malcom Pila",
+      "Eliza Ventura",
+      "Hélio Musk",
+      "Roberto Pereira",
+      "Silvia Vergilio"
+    ],
+    "organizacoes": [
+      "Vina Systems",
+      "UFPR"
+    ]
+  },
+  "data_publicacao": "indefinida"
 }

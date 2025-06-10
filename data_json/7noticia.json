@@ -1,52 +1,9 @@
 {
   "id": "noticia_07",
-  "titulo": "“IA preconceituosa” pode estar por trás do acidente aéreo que matou 113 pessoas",
-  "autor": "Jade Scobri",
-  "local": "Curitiba, Brasil",
-  "fonte": "SBC Horizontes",
-  "resumo": "Informações exclusivas apontam que o sistema de IA do iWear pode ter sido treinado com dados enviesados e mal rotulados, o que comprometeu sua precisão e contribuiu para a falha que resultou em um acidente aéreo fatal.",
-  "topicos": [
-    "IA enviesada",
-    "Rotulagem de dados",
-    "Falha de sistema",
-    "Comitê de ética",
-    "Preconceito algorítmico",
-    "Responsabilidade das empresas",
-    "Respostas institucionais",
-    "Papel da universidade pública"
-  ],
-  "problemas_identificados": [
-    "Base de dados para IA homogênea e mal rotulada",
-    "Ausência de aprovação ética nos dados utilizados",
-    "Possível uso de labeling farms com exploração laboral",
-    "Desconsideração da diversidade de usuários",
-    "Rejeição da crítica acadêmica como 'viés ideológico'"
-  ],
-  "personagens": [
-    {
-      "nome": "Malcom Pila",
-      "papel": "Programador indiciado pela falha do iWear"
-    },
-    {
-      "nome": "Hélio Musk",
-      "papel": "Diretor da Vina Systems"
-    },
-    {
-      "nome": "Prof. Fabiano Silva",
-      "papel": "Professor da UFPR, especialista em IA"
-    },
-    {
-      "nome": "Prof. Luis Carlos E. de Bona",
-      "papel": "Chefe do Departamento de Informática da UFPR"
-    }
-  ],
-  "comentarios_academicos": [
-    "A qualidade do modelo depende fortemente da qualidade da base de dados utilizada para treinamento.",
-    "Bases homogêneas e mal rotuladas induzem preconceitos e comprometem o funcionamento em cenários reais.",
-    "Projetos de IA devem ser submetidos à avaliação de comitês de ética, especialmente quando lidam com dados sensíveis.",
-    "Universidades têm papel crítico na fiscalização ética e técnica de grandes projetos tecnológicos."
-  ],
-  "conclusao": "A negligência com os dados e a falta de responsabilidade ética no uso de IA no desenvolvimento do iWear podem ter contribuído diretamente para a tragédia aérea. A universidade pública reafirma seu papel como guardiã da ciência crítica e ética.",
+  "title": "“IA preconceituosa” pode estar por trás do acidente aéreo que matou 113 pessoas",
+  "author": "Jade Scobri",
+  "location": "Curitiba, Brasil",
+  "source": "SBC Horizontes",
   "tags": [
     "IA",
     "ética",
@@ -55,5 +12,28 @@
     "acidente",
     "vestível",
     "tecnologia crítica"
-  ]
+  ],
+  "summary": "Informações apontam que o sistema de IA do iWear foi treinado com dados enviesados, comprometendo sua precisão...",
+  "content": {
+    "context": {
+      "problemas_identificados": [
+        "Base de dados homogênea e mal rotulada",
+        "Falta de aprovação ética",
+        "Uso de labeling farms",
+        "Rejeição à crítica acadêmica"
+      ],
+      "comentarios_academicos": [
+        "Bases homogêneas comprometem o funcionamento",
+        "IA deve ser submetida à comitês de ética"
+      ]
+    },
+    "personagens": [
+      "Malcom Pila",
+      "Hélio Musk",
+      "Prof. Fabiano Silva",
+      "Prof. Luis Carlos E. de Bona"
+    ]
+  },
+  "conclusao": "A negligência com os dados e a falta de responsabilidade ética podem ter contribuído diretamente para a tragédia aérea.",
+  "data_publicacao": "indefinida"
 }
