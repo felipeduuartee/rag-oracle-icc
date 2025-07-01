@@ -62,8 +62,10 @@ python ingest_data.py --reset
 Para fazer uma pergunta ao sistema:
 
 ```bash
-python query_rag.py "Qual pergunta devo fazer para descobrir a entrada correta?"
+python query_rag.py 
 ```
+
+E faça sua pergunta.
 
 A resposta será gerada com base nos documentos mais relevantes e exibida no terminal, junto com as fontes utilizadas.
 
