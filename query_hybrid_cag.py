@@ -605,8 +605,8 @@ def main():
     print("Digite sua pergunta ou 'sair' para encerrar:\n")
 
     # Inicializa o modelo, embeddings e banco vetorial
-    model = OllamaLLM(model="deepseek-r1:8b")
-    embeddings = OllamaEmbeddings(model="mxbai-embed-large")
+    model = OllamaLLM(model="deepseek-r1:14b")
+    embeddings = OllamaEmbeddings(model="nomic-embed-text")
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embeddings)
 
     history = []

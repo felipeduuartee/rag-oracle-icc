@@ -8,6 +8,7 @@ __pycache__/
 .venv/
 env/
 venv/
+myenv/
 
 # Arquivos de configuração de IDEs
 .vscode/
