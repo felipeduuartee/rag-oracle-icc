@@ -6,9 +6,36 @@ from langchain_chroma import Chroma
 from langchain.schema import Document
 from get_embedding_function import get_embedding_function
 from json_loader import load_json_documents
+from pdf_loader import load_pdf
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data_json"
+
+# Divide os documentos em pedaços menores (chunks)
+def split_documents(documents: list[Document]):
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500,
+        chunk_overlap=100,
+        length_function=len
+    )
+    return splitter.split_documents(documents)
+
+
+def ollama_llm(question, context):
+    formatted_prompt = f"Question: {question}\n\nContext: {context}"
+    response = ollama.chat(model="deepseek-r1", messages=[{'role': 'user', 'content': formatted_prompt}])
+    response_content = response['message']['content']
+    # Remove content between <think> and </think> tags to remove thinking output
+    final_answer = re.sub(r'<think>.*?</think>', '', response_content, flags=re.DOTALL).strip()
+    return final_answer
+
+
+def rag_chain(question, text_splitter, vectorstore, retriever):
+    retrieved_docs = retriever.invoke(question)
+    formatted_content = combine_docs(retrieved_docs)
+    return ollama_llm(question, formatted_content)
+    
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -19,58 +46,17 @@ def main():
         print("Limpando o banco de dados existente...")
         clear_database()
 
-    documents = load_json_documents(DATA_PATH)
+    documents = load_pdf()
     chunks = split_documents(documents)
-    add_to_chroma(chunks)
+    #print(f"Total de chunks: {len(chunks)}")
+    #print(f"Exemplo de chunk: {chunks[0].page_content if chunks else 'Nenhum'}")
 
-# Divide os documentos em pedaços menores (chunks)
-def split_documents(documents: list[Document]):
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1500,
-        chunk_overlap=200,
-        length_function=len
+    db = Chroma.from_documents(
+        documents=chunks,
+        embedding=get_embedding_function(),
+        persist_directory=CHROMA_PATH,        
     )
-    return splitter.split_documents(documents)
-
-# Gera um ID único para cada chunk, com base no nome do arquivo e índice
-def calculate_chunks_ids(chunks: list[Document]):
-    last_source = None
-    current_chunk_index = 0
-
-    for chunk in chunks:
-        source = chunk.metadata.get("source")
-        if source == last_source:
-            current_chunk_index += 1
-        else:
-            current_chunk_index = 0
-            last_source = source
-
-        chunk_id = f"{source}:{current_chunk_index}"
-        chunk.metadata["id"] = chunk_id
-
-    return chunks
-
-# Adiciona os chunks ao banco Chroma, evitando duplicação por ID
-def add_to_chroma(chunks: list[Document]):
-    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=get_embedding_function())
-    chunks_with_ids = calculate_chunks_ids(chunks)
-
-    existing_items = db.get(include=[])
-    existing_ids = set(existing_items["ids"])
-    print(f"Documentos já existentes no banco: {len(existing_ids)}")
-
-    new_chunks = [chunk for chunk in chunks_with_ids if chunk.metadata["id"] not in existing_ids]
-
-    if new_chunks:
-        print(f"Adicionando {len(new_chunks)} novos documentos ao banco...")
-        db.add_documents(new_chunks, ids=[chunk.metadata["id"] for chunk in new_chunks])
-    else:
-        print("Nenhum novo documento para adicionar.")
-
-# Apaga a pasta do banco de dados Chroma
-def clear_database():
-    if os.path.exists(CHROMA_PATH):
-        shutil.rmtree(CHROMA_PATH)
-
+    
+    
 if __name__ == "__main__":
     main()
